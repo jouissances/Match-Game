@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Match Game</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href=".../font-awesome-4.7.0/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/stylesheet.css" type="text/css">
+</head>
+
+<body>
+  <div class="window-wrapper">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-3 col-xs-12">
+               <h1>Match Game</h1>
+               <h5>Rules</h5>
+                   <p>Click on a card to reveal the number on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
+               <h5>How To Win</h5>
+                   <p>You win when all pairs have been found.</p>
+           </div>
+           <div class="col-md-9 col-xs-12" id="game">
+               <div class="row">
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+                  <div class="col-md-3" id="card"></div>
+               </div>
+           </div>
+       </div>
+   </div>
+  </div>
+   
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="resources/js/main.js"></script>
+    <script type="text/javascript" src="resources/js/match-game.js"></script>
+    <script type="text/javascript" src="resources/js/tests.js"></script>
+</body>
+
+</html>

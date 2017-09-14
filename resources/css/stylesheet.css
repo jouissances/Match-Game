@@ -1,0 +1,51 @@
+/* Global CSS */
+   
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    background-color: rgb(255, 242, 242);
+}
+    
+.window-wrapper {    
+    padding-top: 5.25rem;
+}
+
+/* Instructions CSS */
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(32, 64, 86);   
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(74, 74, 74);
+    padding: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Game Cards CSS */
+
+#game {
+    height: auto;
+}
+
+#card {
+    width: 175px;
+    height: 175px;
+    background-color: rgb(32, 64, 86);
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    font-size: 7rem;
+    text-align: center;
+    line-height: 175px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
