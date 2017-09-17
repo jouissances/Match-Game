@@ -13,39 +13,50 @@
 /* Instructions CSS */
 
 h1 {
-    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
     font-size: 2.5rem;
     color: rgb(32, 64, 86);   
 }
 
 h5 {
-    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
     font-size: 14px;
     color: rgb(74, 74, 74);
     padding: 1rem 0;
 }
 
 p {
-    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    padding: 0 1.5rem 0 0;
 }
 
 /* Game Cards CSS */
 
 #game {
     height: auto;
+    padding: 1rem 5rem;
 }
 
 #card {
-    width: 175px;
+    width: 150px;
     height: 175px;
     background-color: rgb(32, 64, 86);
     border-radius: 0.5rem;
     margin: 0.5rem;
     font-size: 7rem;
-    text-align: center;
+    text-align: centre;
     line-height: 175px;
     font-weight: 900;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
+/* Media Queries */
+@media only screen and (min-width: 1200px) {
+    #card {
+        width: 175px;
+    }
+}
