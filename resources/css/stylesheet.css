@@ -40,14 +40,15 @@ p {
     padding: 1rem 5rem;
 }
 
-#card {
+.card {
     width: 150px;
     height: 175px;
     background-color: rgb(32, 64, 86);
     border-radius: 0.5rem;
     margin: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
     font-size: 7rem;
-    text-align: centre;
+    text-align: center;
     line-height: 175px;
     font-weight: 900;
     color: rgb(255, 255, 255);
